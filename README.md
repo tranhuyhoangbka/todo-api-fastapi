@@ -85,3 +85,11 @@ git push
 ```
 
 This requires the `git push --set-upstream origin <branch-name>` completed as specified in section 2 above
+
+python3 -m venv .venv
+
+source /home/huyhoang/Documents/projects/todo-api-fastapi/.venv
+
+pip3 install -r requirements.txt
+
+ uvicorn main:app --reload
